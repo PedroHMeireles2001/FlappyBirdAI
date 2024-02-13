@@ -97,8 +97,8 @@ class Pipe:
         self.height = 0
         self.pos_top = 0
         self.pos_down = 0
-        self.IMG_TPipe = pygame.transform.flip(IMG_PIPE, False, True)
-        self.IMG_DPipe = IMG_PIPE
+        self.IMG_TPipe = IMG_PIPE
+        self.IMG_DPipe = pygame.transform.flip(IMG_PIPE, False, True)
         self.passed = False
         self.define_height()
 
